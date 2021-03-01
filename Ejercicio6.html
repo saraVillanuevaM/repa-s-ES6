@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6</title>
+</head>
+<body>
+    
+    <h1>Ejercicio 6 repas</h1>
+    <script>
+
+//Tenim un array de tasques i volem aconseguir un array que contingui únicament els noms de les tasques. 
+
+//- Usar .forEach() per obtenir aquest array.
+
+//- Usar .map() per obtenir aquest array.
+
+
+                            const tasks = [
+                            {
+                            'name' : 'Start React web',
+                            'duration' : 120
+                            },
+                            {
+                            'name' : 'Work out',
+                            'duration' : 60
+                            },
+                            {
+                            'name' : 'Procrastinate on facebook',
+                            'duration' : 240
+                            }
+                            ];
+
+
+
+            //no he conseguido hacer el for each un array o recoger esta info en un nuevo array
+            //Que se me escapa??
+            tasks.forEach(task=>console.log(task.name) );
+                    
+
+             
+                    
+
+            const task2 = tasks.map(task=>(task.name))
+            console.log(task2);
+
+
+
+
+    </script>
+</body>
+</html>
